@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    link(href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css')
+    link(rel="stylesheet", href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css")
+    script(src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js")
+    script(src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js')
+    link(href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css', rel='stylesheet')
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+    script(src="/javascripts/maps.js")
+  body.container-fluid
+    div#map
+    div.sidebar
+      .row
+        .col-md-1
+          a(href='/')
+            i.fa.fa-times.fa-2x
+        .col-md-11
+      .row.countries
+        for item in items
+          p.country.link-black(data-name='#{item.name}', data-countrylat='#{Number(item.latitude)}', data-countrylng='#{Number(item.longitude)}', data-picture='#{item.pictureurl}') #{item.name}
+            if item.regions
+              ul
+                for region in item.regions
+                  li.region.link(data-name='#{region.name}', data-country='#{item.name}', data-regionlat ='#{region.latitude}',data-regionlng ='#{region.longitude}', data-pic='#{region.pictureurl}') #{region.name}
+                    if region.lodges
+                      ul 
+                        for lodge in region.lodges
+                          li.lodge.link(data-name='#{lodge.name}', data-region='#{region.name}', data-lodgelat ='#{lodge.latitude}',data-lodgelng ='#{lodge.longitude}', data-pic='#{lodge.pictureurl}') #{lodge.name} 
+                    if region.subregions
+                      ul 
+                        for sub in region.subregions
+                          li.sub(data-name='#{sub.name}', data-region='#{region.name}', data-subregionlat ='#{sub.latitude}',data-subregionlng ='#{sub.longitude}', data-pic='#{sub.pictureurl}') #{sub.name}
+                            ul
+                              for lodge in sub.lodges
+                                li.lodge(data-name='#{lodge.name}', data-region='#{region.name}', data-lodgelat ='#{lodge.latitude}',data-lodgelng ='#{lodge.longitude}', data-pic='#{lodge.pictureurl}')  #{lodge.name}
+

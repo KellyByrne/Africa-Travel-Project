@@ -1,0 +1,109 @@
+html
+  head
+    meta(charset='utf-8')
+    title Africa Conflicts
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.10/d3.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.15/d3.geo.projection.min.js')
+  style(type='text/css').
+    /*.subunit.AGO { fill: #ddc; }*/
+    /*.subunit.BEN { fill: #cdd; }
+    .subunit.BFA { fill: #cdc; }
+    .subunit.BWA { fill: #dcd; }
+    .subunit.BDI { fill: salmon; }
+    .subunit.CIV { fill: #ddc; }
+    .subunit.CMR { fill: #cdd; }
+    .subunit.COD { fill: #cdc; }
+    .subunit.COG { fill: #dcd; }
+    .subunit.COM { fill: salmon; }
+    .subunit.CPV { fill: #ddc; }
+    .subunit.DZA { fill: #cdd; }
+    .subunit.DJI { fill: #cdc; }
+    .subunit.ETH { fill: #dcd; }
+    .subunit.EGY { fill: salmon; }
+    .subunit.ERI { fill: #ddc; }
+    .subunit.GAB { fill: #cdd; }
+    .subunit.GHA { fill: #cdc; }
+    .subunit.ZMB { fill: #dcd; }
+    .subunit.CAF { fill: salmon; }
+    .subunit.GMB { fill: #ddc; }
+    .subunit.GIN { fill: #cdd; }
+    .subunit.GNB { fill: #cdc; }
+    .subunit.GNQ { fill: #dcd; }
+    .subunit.KEN { fill: salmon; }
+    .subunit.LBR { fill: #ddc; }
+    .subunit.LBY { fill: #cdd; }
+    .subunit.UGA { fill: #cdc; }
+    .subunit.ZAF { fill: #dcd; }
+    .subunit.ZWE { fill: salmon; }
+    .subunit.LSO { fill: #ddc; }
+    .subunit.MDG { fill: #cdd; }
+    .subunit.MLI { fill: #cdc; }
+    .subunit.MRT { fill: #dcd; }
+    .subunit.MUS { fill: salmon; }
+    .subunit.MAR { fill: #ddc; }
+    .subunit.MOZ { fill: #cdd; }
+    .subunit.MWI { fill: #cdc; }
+    .subunit.NAM { fill: #dcd; }
+    .subunit.NER { fill: salmon; }
+    .subunit.NGA { fill: #dcd; }
+    .subunit.RWA { fill: salmon; }
+    .subunit.SEN { fill: #ddc; }
+    .subunit.STP { fill: #cdd; }
+    .subunit.SWZ { fill: #cdc; }
+    .subunit.SYC { fill: #dcd; }
+    .subunit.TCD { fill: salmon; }
+    .subunit.SLE { fill: #ddc; }
+    .subunit.SOM { fill: #cdd; }
+    .subunit.SSD { fill: #cdc; }
+    .subunit.SDN { fill: #dcd; }
+    .subunit.TGO { fill: salmon; }
+    .subunit.TZA { fill: #cdc; }
+    .subunit.TUN { fill: #dcd; }
+    .subunit-boundary {
+    fill: none;
+    stroke: #777;
+    stroke-dasharray: 2,2;
+    stroke-linejoin: round;
+    }
+    .subunit-boundary.IRL {
+    stroke: #aaa;
+    }
+    .place,
+    .place-label {
+    fill: #444;
+    }
+    text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    pointer-events: none;
+    }
+    .subunit-label {
+    fill: #777;
+    fill-opacity: .5;
+    font-size: 20px;
+    font-weight: 300;
+    text-anchor: middle;
+    }*/
+  body
+    h2 MAP!!!
+    script(type='text/javascript').
+      var width = 960,
+      height = 1160;
+      var projection = d3.geo.albers()
+      .center([0, 55.4])
+      .rotate([4.4, 0])
+      .parallels([50, 60])
+      .scale(1200 * 5)
+      .translate([width / 2, height / 2]);
+      var path = d3.geo.path()
+      .projection(projection);
+      var svg = d3.select("body").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+      d3.json("africa.json", function(error, africa) {
+      svg.append("path")
+      .datum(topojson.feature(africa, africa.objects.subunits))
+      .attr("d", d3.geo.path().projection(d3.geo.mercator()));
+      });
+  html

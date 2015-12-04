@@ -1,0 +1,47 @@
+doctype html
+html
+  head
+    title Africa
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/animations.css')
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    link(href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css')
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+    script(src="/javascripts/script.js")
+  body#lists.container-fluid
+  .row
+    .col-md-12.menu-black
+      .col-md-1#no-pad
+        a(href='/paths')
+          i.fa.fa-bars.fa-3x
+      .col-md-3
+      .col-md-4
+        h1.white#menu-title Africa
+      .col-md-1
+      .col-md-2.search
+        i.fa.fa-search.fa-2x &nbsp
+        input
+      .col-md-1
+        a(href='/paths/wishlist')
+          i.fa.fa-shopping-cart.fa-2x
+  .space.text-center
+    h4.path-title #{title}
+  .row
+    .col-md-1
+    .col-md-10.box
+      for item in lists
+        - if(item <= lists.length/2)
+          .col-md-6.items
+            div
+              a.link-black(href='/paths/'+ '#{route}' + '/' + item.name)
+                p #{item.name}
+        -else
+          .col-md-6.items
+            div
+              a.link-black(href='/paths/'+ '#{route}' + '/' + item.name)
+                p #{item.name}
+    .col-md-1
+  .space-less
+  .row.footer

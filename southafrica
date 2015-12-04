@@ -1,0 +1,177 @@
+southafrica
+
+ {
+                    "name" : "",
+                    "pictureurl" : "",
+                    "latitude" : "",
+                    "longitude" : "",
+                    "lodges" : [
+                    ]
+                    },
+
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+ 
+         
+             "name" : "Western Cape",
+            "pictureurl" : "http://cdn2.africatravelresource.com/africa/southafrica/westerncape/0/stills/01intro/24SCS2-IM1424-western-cape-1475.JPG",
+            "latitude" : "-33.917",
+            "longitude" : "18.417",
+            "id" : "77"
+
+  "name" : "Cape Town",
+            "pictureurl" : "http://cdn2.africatravelresource.com/africa/southafrica/westerncape/0/stills/01intro/24SCS2-IM1424-western-cape-1475.JPG",
+            "latitude" : "-33.917",
+            "longitude" : "18.417",
+            "id" : "78"
+
+
+  "subregions" : [ 
+                {
+                    "name" : "Cape Flats",
+                    "pictureurl" : "",
+                    "latitude" : "-34.000",
+                    "longitude" : "18.667",
+                    "lodges" : [
+{name: "Strandfontein Resort", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/0/stills/01intro/24SCS2-IM1424-western-cape-1475.JPG", latitude:"-34.000", longitude: "18.667"}
+                    ]
+                    },
+                     {
+                    "name" : "Cape of Good Hope",
+                    "pictureurl" : "http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG",
+                    "latitude" : "-34.358",
+                    "longitude" : "18.472",
+                    "lodges" : [
+{name: "26 Sunset Avenue", rating: "9.0", price: "$295", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Zensa Lodge", rating: "9.0", price: "$60", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "12 Apostles Hotel", rating: "8.0", price: "$215", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/12-apostles-hotel/0/stills/02arrival/04SCRT-IM1001-12-apostles-hotel-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Steenberg Hotel", rating: "8.0", price: "$185", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/steenberg-hotel/0/stills/02arrival/01SCRH-IM1001-steenberg-hotel-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "The Long Beach", rating: "8.0", price: "$185", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/the-long-beach/0/stills/02arrival/01SCSL-IM1001-the-long-beach-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Beaumont House", rating: "7.0", price: "$120", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/beaumont-house/0/stills/02house/01SCSQ-IM1101-beaumont-house-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Cellars Hohenort Hotel", rating: "7.0", price: "$110", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/cellars-hohenort-hotel/0/stills/03hotel/01SCSC-IM1111-cellars-hohenort-hotel-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Chapmans Peak Hotel", rating: "7.0", price: "$90", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/chapmans-peak-hotel/0/stills/02arrival/00SCSP-IM1000-chapmans-peak-hotel-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "De Noordhoek Hotel", rating: "7.0", price: "$45", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/de-noordhoek-hotel/0/stills/02arrival/01SCRN-IM1001-de-noordhoek-hotel-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Fernwood Manor", rating: "7.0", price: "$60", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/fernwood-manor/0/stills/01intro/01SCSF-IM1101-fernwood-manor-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Hout Bay Manor", rating: "7.0", price: "$150", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/hout-bay-manor/0/stills/02arrival/01SCXX-IM1001-hout-bay-manor-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Riverside Estates", rating: "7.0", price: "$70", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/riverside-estates/0/stills/02arrival/01SCRR-IM1001-riverside-estates-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Afton Grove", rating: "6.0", price: "$40", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/afton-grove/0/stills/01intro/01SCXY-IM1001-afton-grove-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Alphen Hotel", rating: "6.0", price: "$105", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/alphen-hotel/0/stills/01intro/01SCSA-IM1001-alphen-hotel-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Boulders Beach Lodge", rating: "6.0", price: "$50", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/boulders-beach-lodge/0/stills/01intro/01SCPU-IM1001-boulders-beach-lodge-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Colona Castle", rating: "6.0", price: "$110", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/colona-castle/0/stills/02arrival/01SCSO-IM1101-colona-castle-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Constantia Lodge", rating: "6.0", price: "$55", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Constantia Stables", rating: "6.0", price: "$50", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/constantia-stables/0/stills/01intro/02SCRE-IM1002-constantia-stables-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Glen Avon Lodge", rating: "6.0", price: "$35", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/glen-avon-lodge/0/stills/02arrival/00SCSG-IM1000-glen-avon-lodge-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Rodwell House", rating: "6.0", price: "$165", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/rodwell-house/0/stills/03house/11SCSR-IM1002-rodwell-house-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Sunbird Mtn Retreat", rating: "6.0", price: "$35", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/sunbird-mountain-retreat/0/stills/01intro/01SCRI-IM1001-sunbird-mountain-retreat-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "The Constantia", rating: "6.0", price: "$185", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/the-constantia/0/stills/03lodge/01SCST-IM1001-the-constantia-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "The St James", rating: "6.0", price: "$125", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/the-st-james/0/stills/03lodge/01SCSJ-IM1001-the-st-james-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Vineyard Hotel", rating: "6.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/vineyard-hotel/0/stills/03hotel/01SCSY-IM1001-vineyard-hotel-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Monkey Valley Resort", rating: "5.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/monkey-valley-resort/0/stills/01intro/01SCSM-IM1001-monkey-valley-resort-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Southern Sun Newlands", rating: "5.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Bosky Dell", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/bosky-dell/0/stills/01intro/01SCPK-IM1001-bosky-dell-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Brightwater Lodge", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "British Hotel", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/british-hotel/0/stills/01intro/01SCPI-IM1001-british-hotel-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Chartfield Guest House", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/chartfield-guest-house/0/stills/01intro/01SCRS-IM1001-chartfield-guest-house-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Constantia Uitsig", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/constantia-uitsig/0/stills/02arrival/07SUIT-IM2107-constantia-uitsig-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "El Mirador Apartments", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/el-mirador-apartments/0/stills/01intro/01SCPL-IM1001-el-mirador-apartments-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Elephant's Eye Lodge", rating: "0.0", price: "$20", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/elephants-eye-lodge/0/stills/01intro/01SCSE-IM1001-elephants-eye-lodge-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Greenways Hotel", rating: "0.0", price: "$90", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/greenways-hotel/0/stills/01intro/02SCRG-IM1132-greenways-hotel-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Houtkapperspoort", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/houtkapperspoort/0/stills/01intro/01SCSH-IM1001-houtkapperspoort-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Quayside Hotel", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/quayside-hotel/0/stills/01intro/01SCPQ-IM1001-quayside-hotel-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Rocklands", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/rocklands/0/stills/01intro/01SCPR-IM1001-rocklands-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Roman Rock Apartments", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "The Beach Lodge", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "The Bishop's Court", rating: "0.0", price: "$150", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/the-bishops-court/0/stills/03lodge/01SCSI-IM1001-the-bishops-court-1475.jpg", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Tintswalo Atlantic", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/tintswalo-atlantic/0/stills/02arrival/05SCSX-IM1005-tintswalo-atlantic-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Villa Honeywood", rating: "0.0", price: "$75", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/0/stills/01cape%20of%20good%20hope/01SW11-IM1001-cape-of-good-hope-1475.JPG", latitude:"-34.358", longitude: "18.472"},
+
+{name: "Wildrose Country Lodge", rating: "0.0", price: "n/a", pictureurl:"http://cdn2.africatravelresource.com/africa/southafrica/westerncape/cape/peninsular/wildrose-country-lodge/0/stills/01intro/01SCSW-IM1001-wildrose-country-lodge-1475.jpg", latitude:"-34.358", longitude: "18.472"}
+                    ]
+                    },
+                     {
+                    "name" : "Cape Suburbs North",
+                    "pictureurl" : "",
+                    "latitude" : "-33.882",
+                    "longitude" : "18.661",
+                    "lodges" : [
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+                    ]
+                    },
+                     {
+                    "name" : "Somerset West",
+                    "pictureurl" : "",
+                    "latitude" : "-34.083",
+                    "longitude" : "18.850",
+                    "lodges" : [
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+{name: "", rating: ".0", price: "$", pictureurl:"", latitude:"-", longitude: ""},
+
+                    ]
+                    }
+                    ]

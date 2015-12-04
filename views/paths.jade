@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/animations.css')
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+    script(src="/javascripts/script.js")
+  body#paths
+  div.fullscreen-bg
+    video.fullscreen-bg-video(autoplay)
+        source(src='https://player.vimeo.com/external/135236723.hd.mp4?s=aae3776fc23406a9f2c30de5c16120a0&profile_id=113', type='video/mp4')
+  a(href='/')
+    i.fa.fa-times.fa-4x
+  .space
+  .row.text-center
+    .col-md-1
+    .col-md-3.top.right.slideRight
+      a.link(href='/paths/places')
+        h1 PLACES
+    .col-md-4.top.right.slideDown
+      a.link(href='/paths/experiences')
+        h1 EXPERIENCES
+    .col-md-3.top.slideLeft
+      a.link(href='/paths/wishlist')
+        h1 WISHLIST
+    .col-md-1
+  .row.text-center
+    .col-md-1
+    .col-md-3.right.slideRight
+      a.link(href='/paths/maps')
+        h1 MAPS
+    .col-md-4.right.slideUp
+      a.link(href='/conflicts')
+        h1 CONFLICTS
+    .col-md-3.slideLeft
+      a.link(href='/paths/resources')
+        h1 RESOURCES
+    .col-md-1
+ 

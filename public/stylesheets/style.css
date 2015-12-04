@@ -1,0 +1,236 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+i {
+	color: white;
+}
+
+.popup {
+    text-align: center;
+    font-family: 'Lato';
+    color: black;
+}
+
+.popup:hover {
+    color: #3C9A5F;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 800px;
+    width: 400px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: "Lato";
+    color: white;
+    overflow: scroll;
+    text-transform: uppercase;
+}
+
+.countries {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.region {
+    list-style-type: none;
+    display: none;
+}
+
+.lodge {
+    list-style-type: none;
+    display: none;
+}
+
+.sub {
+    list-style-type: none;
+    display: none;
+}
+
+#no-pad {
+    padding: 0;
+}
+
+
+
+#menu-title {
+    letter-spacing: 15px;
+    padding-left: 90px;
+    padding-top: 10px;
+    margin: 0;
+    font-weight: 300;
+}
+.path-title {
+    padding: 50px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.menu {
+    height: 60px;
+    width: 100%;
+    color: white;
+}
+
+.menu-black {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.menu-black {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+} 
+
+
+.search {
+    padding-top: 10px;
+}
+
+.fa-bars {
+    padding-top: 10px;
+}
+
+.fa-times {
+	color: white;
+}
+
+.fa-shopping-cart {
+    padding-top: 15px;
+}
+
+
+
+#map {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+ .space {
+ 	height: 135px;
+ }
+
+.link:link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #3C9A5F;
+    text-decoration: none;
+}
+
+.link:active {
+    color: #3C9A5F;
+    text-decoration: none;
+}
+
+.link-black:link {
+    color: black;
+    text-decoration: none;
+}
+
+.link-black:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.link-black:hover {
+    color: #3C9A5F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-black:active {
+    color: #3C9A5F;
+    text-decoration: none;
+}
+
+.top {
+	border-bottom: white 5px solid;
+	padding: 10px;
+}
+
+.right {
+	border-right: white 5px solid;
+}
+
+#paths {
+	color: white;
+	margin: 0;
+    font-family: 'Lato';
+}
+
+.fullscreen-bg {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#lists {
+	color: black;
+    font-family: 'Lato';
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box {
+    background-color: #e9e9e9;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.items {
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.space-less {
+    height: 100px;
+}
+
+.footer {
+    height: 275px;
+    background-color: #545454;
+}
