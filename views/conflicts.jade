@@ -62,10 +62,10 @@ html
     .subunit.TUN { fill: orange; }
 
     .subunit-boundary {
-      fill: red;
+      fill: none;
       stroke: #777;
-      /*stroke-dasharray: 2,2;
-      stroke-linejoin: round;*/
+      stroke-dasharray: 2,2;
+      stroke-linejoin: round;
     }
     
     .place,
@@ -104,7 +104,7 @@ html
         svg.selectAll(".subunit").data(topojson.feature(africa, africa.objects.subunits).features)
          .enter().append("path").attr("class", function(d) {return "subunit " + d.id; }).attr("d", path);
       
-        svg.append("path").data(topojson.mesh(uk, uk.objects.subunits, function(a, b) {return a !== b}))
+        svg.append("path").data(topojson.mesh(africa, africa.objects.subunits, function(a, b) {return a !== b}))
           .attr("d", path).attr("class", "subunit-boundary");
 
       });
