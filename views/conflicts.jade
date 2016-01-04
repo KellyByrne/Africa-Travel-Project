@@ -6,6 +6,9 @@ html
     script(src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.10/d3.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.15/d3.geo.projection.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
   style(type='text/css').
     .subunit.AGO { fill: black; }
     .subunit.BEN { fill: black; }
@@ -90,7 +93,6 @@ html
       margin-left: -150px;
     }
 
-    
 
     .legend {
       margin-right: 75px;
@@ -98,6 +100,10 @@ html
       float: right;
       font-family: 'Lato';
       background-color: #dddddd;
+    }
+    .title {
+      margin-bottom: 15px;
+      margin-left: 5px;
     }
 
     .box {
@@ -145,15 +151,27 @@ html
           .attr("d", path).attr("class", "subunit-boundary");
 
       });
-    .legend 
-      h1 Africa Conflicts
-      .box.maroon
-      p 10,000 + deaths in last year
-      .box.red
-      p 1,000 - 9,999 deaths in last year
-      .box.orange
-      p 100 - 999 deaths in last year
-      .box.yellow
-      p skirmishes and clashes
-      | fewer than 100 deaths in last year
+    .legend
+      .row.title
+        h1 Africa Conflicts
+      .row
+        .col-md-2
+          .box.maroon
+        .col-md-9 
+          p 10,000 + deaths in last year
+      .row
+        .col-md-2
+          .box.red
+        .col-md-9 
+          p 1,000 - 9,999 deaths in last year
+      .row
+        .col-md-2
+          .box.orange
+        .col-md-9 
+          p 100 - 999 deaths in last year
+      .row
+        .col-md-2
+          .box.yellow
+        .col-md-9 
+          p fewer than 100 deaths in last year
   html
