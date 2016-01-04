@@ -2,6 +2,7 @@ html
   head
     meta(charset='utf-8')
     title Africa Conflicts
+    link(href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.10/d3.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.15/d3.geo.projection.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js')
@@ -84,7 +85,43 @@ html
       font-weight: 300;
       text-anchor: middle;
     }
-  body
+
+    svg {
+      margin-left: -150px;
+    }
+
+    
+
+    .legend {
+      margin-right: 75px;
+      padding: 0px 30px 20px 30px;
+      float: right;
+      font-family: 'Lato';
+      background-color: #dddddd;
+    }
+
+    .box {
+      height: 20px;
+      width: 20px;
+      margin-bottom: 10px;
+    }
+
+    .maroon {
+      background-color: maroon;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .orange {
+      background-color: orange;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+  body#africa-conflicts
     script(type='text/javascript').
       var width = 900,
           height = 700;
@@ -108,4 +145,15 @@ html
           .attr("d", path).attr("class", "subunit-boundary");
 
       });
+    .legend 
+      h1 Africa Conflicts
+      .box.maroon
+      p 10,000 + deaths in last year
+      .box.red
+      p 1,000 - 9,999 deaths in last year
+      .box.orange
+      p 100 - 999 deaths in last year
+      .box.yellow
+      p skirmishes and clashes
+      | fewer than 100 deaths in last year
   html
