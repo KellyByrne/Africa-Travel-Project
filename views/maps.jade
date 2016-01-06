@@ -17,7 +17,7 @@ html
     div.sidebar
       .row
         .col-md-1
-          a(href='/')
+          a(href='/paths')
             i.fa.fa-times.fa-2x
         .col-md-11
       .row.countries
@@ -27,15 +27,8 @@ html
               ul
                 for region in item.regions
                   li.region.link(data-name='#{region.name}', data-country='#{item.name}', data-regionlat ='#{region.latitude}',data-regionlng ='#{region.longitude}', data-pic='#{region.pictureurl}') #{region.name}
-                    if region.lodges
-                      ul 
-                        for lodge in region.lodges
-                          li.lodge.link(data-name='#{lodge.name}', data-region='#{region.name}', data-lodgelat ='#{lodge.latitude}',data-lodgelng ='#{lodge.longitude}', data-pic='#{lodge.pictureurl}') #{lodge.name} 
-                    if region.subregions
+                   if region.subregions
                       ul 
                         for sub in region.subregions
                           li.sub(data-name='#{sub.name}', data-region='#{region.name}', data-subregionlat ='#{sub.latitude}',data-subregionlng ='#{sub.longitude}', data-pic='#{sub.pictureurl}') #{sub.name}
-                            ul
-                              for lodge in sub.lodges
-                                li.lodge(data-name='#{lodge.name}', data-region='#{region.name}', data-lodgelat ='#{lodge.latitude}',data-lodgelng ='#{lodge.longitude}', data-pic='#{lodge.pictureurl}')  #{lodge.name}
-
+                            

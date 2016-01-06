@@ -52,11 +52,19 @@ html
   .row.space-less
   .row.space-less
     .col-md-1
-    .col-md-10
+    .col-md-10.text-center
       if items.db === "experiences"
-        p A good way to explore the best lodges for this experience is to use the lodge search function.
-        a.link-black(href="/paths/lodges")
-          p Click here to search lodges
+        .row
+          .col-md-4.col-md-offset-4
+            p Add #{name} to Wishlist
+            .wishlist
+              a(href='/paths/wishlist') Wishlist
+      if items.db === "places"
+        .row
+          .col-md-4.col-md-offset-4
+            p Add #{name} to Wishlist
+            .wishlist
+              a(href='/paths/wishlist') Wishlist
     .col-md-1
   .space-less
   .row.footer

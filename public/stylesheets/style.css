@@ -117,7 +117,9 @@ i {
     padding-top: 15px;
 }
 
-
+.link h1 {
+   letter-spacing: 3px;
+}
 
 #map {
     position: fixed;
@@ -233,4 +235,28 @@ i {
 .footer {
     height: 275px;
     background-color: #545454;
+}
+
+.wishlist {
+    height: 55px;
+    width: 200px;
+    background-color: #e2bb00;
+    color: #fff;
+    margin-left: 62px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+}
+
+.wishlist a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.wishlist a:hover{
+    text-decoration: none;
+    color: #fff;
+
 }

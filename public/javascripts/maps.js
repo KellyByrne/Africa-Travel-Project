@@ -57,9 +57,17 @@ $('.sub').on('click', function(){
   $('[data-region="' + subregionname + '"]').slideToggle()
 
 
+    var regionMarker = L.marker([subregionlat, subregionlng]).addTo(map);
+
+    regionMarker.bindPopup(popup).openPopup();
+
+    var popup = L.popup({maxWidth:500})
+    .setLatLng([subregionlat, subregionlng])
+    .setContent("<img src=\'" + subregionpic + "\' height='200' width='300'> <br> <a class='link-black' href='/paths/places/" + subregionname + "\'>" + subregionname + "</a>")
+    .openOn(map);
+
 })
  
-
 
 var map = L.map('map', {zoomControl:false}).setView([1.0, 1.0], 4);
 
